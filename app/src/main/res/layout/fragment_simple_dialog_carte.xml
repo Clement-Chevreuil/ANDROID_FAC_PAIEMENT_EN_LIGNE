@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/edit_name"
+
+    android:layout_width="250dp"
+    android:layout_height="400dp"
+
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <TextView
+
+        android:id="@+id/lbl_carteBancaire"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="Carte Bancaire :" />
+
+
+    <EditText
+
+        android:id="@+id/txt_pseudo"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:hint="Nom et prénom"
+
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Numéro de carte :"
+
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Code cvc"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_dateExpiration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date Expiration"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok" />
+
+</LinearLayout>
